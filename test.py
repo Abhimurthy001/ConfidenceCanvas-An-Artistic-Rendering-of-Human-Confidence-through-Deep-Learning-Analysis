@@ -20,7 +20,7 @@ cap = cv2.VideoCapture(0)
 
 # pass here your video path
 # you may download one from here : https://www.pexels.com/video/three-girls-laughing-5273028/
-#cap = cv2.VideoCapture("C:\\JustDoIt\\ML\\Sample_videos\\emotion_sample6.mp4")
+#cap = cv2.VideoCapture("path")
 
 
 #new code for define new function of calculating most
