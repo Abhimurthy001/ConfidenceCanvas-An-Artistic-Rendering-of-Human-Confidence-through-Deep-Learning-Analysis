@@ -3,7 +3,7 @@ import numpy as np
 from keras.models import model_from_json
 
 
-emotion_dict = {0: "Angry [ You are not confident ]", 1: "Disgusted [ You are not confident ]", 2: "Fearful [ You are not confident ]", 3: "Happy [ You are Confident ]", 4: "Neutral [ Need to work on confidence ]", 5: "Sad [ You are not confident ]", 6: "Surprised [ You are not confident ]"}
+emotion_dict = {0: "You are not confident", 1: "You are not confident", 2: "You are not confident", 3: "You are Confident", 4: "Need to work on confidence", 5: "You are not confident", 6: "You are not confident"}
 
 # load json and create model
 json_file = open('./emotion_model.json', 'r')
